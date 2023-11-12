@@ -1,4 +1,5 @@
 ## ISLIP
+
 ISLIP and Traffic Generator for Switch Simulation is a project that simulates the transport of packets in a switch.
 The packets arrival follows a Binomial distribution, with packets arriving at each time step and each input port having a chance 'p.'
 
@@ -25,8 +26,7 @@ The output port of each packet is determined by either a uniform or diagonal dis
 Simulating switch packet handling, this program processes packets arriving based on the generated schedule.
 It implements a round-robin scheduling mechanism involving request (from input), grant (from output), and accept (from input) phases.
 
-- Simulation Script (Optional)
-
+- Simulation Script:
 A Python script, `simulation_script.py`, is provided for running simulations with different 'p' values and analyzing the results.
 The script generates time and queue size statistics for multiple runs.
 
