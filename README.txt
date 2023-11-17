@@ -48,4 +48,4 @@ The script generates time and queue size statistics for multiple runs.
    - Make sure both "tr_gen.exe" and "islip.exe" are in the same directory as the script for proper execution.
 
 4. Adjustment:
-   - Adjustments my be needed, based on your development environment.
+   - Adjustments my be needed, based on your development environment. Developed and tested on Windows 11.
